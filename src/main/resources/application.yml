@@ -1,0 +1,15 @@
+server:
+  port: 8090
+
+spring:
+  mail:
+    host: smtp.163.com
+    username: zzzzhaoxy@163.com
+    password: helloworld1024
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
