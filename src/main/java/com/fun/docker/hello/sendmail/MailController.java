@@ -22,5 +22,6 @@ public class MailController {
     @RequestMapping(value = "/sendInvoice", method = RequestMethod.GET)
     public void sendInvoice() {
         mailService.sendAttachmentsMail("zzzhaoxy@163.com", "发票1", "您的发票已到1", "E:\\Wechatworkface\\WeChat Files\\zxy_step\\FileStorage\\File\\2019-07\\test.pdf");
+        System.out.println("branch test");
     }
 }
